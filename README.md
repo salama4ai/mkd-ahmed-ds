@@ -36,16 +36,6 @@ Tasks:
 8. Do you think you have a better idea to handle the whole process? Write a summary about the alternative approach.
 
 SET B:
-
-Problem:
-We have a sets of rules for a specific game. Based on the rules, we will need to implement a system
-to predict the optimal next move of a player.
-
-Use this as reference of the rules: https://gamerules.com/rules/7-wonders-duel/
-
-Make some different scenerios to test the system you built.
-
-SET C:
 Problem:
 Given these rules:
 
@@ -78,6 +68,7 @@ If price < $3 remove lime, watermelon.
 If price > $4 and < $7 remove pears, apples.
 ```
 
-Make a function passing in the answer to the 4 questions and structure GPT3 prompt given these rules to give you the list of recommeded fruits.
+Tasks:
 
-Make a simple flask POST API where we return the answers given the input in POST Body with content type application/json
+1. Make a function passing in the answer to the 4 questions and structure GPT3 prompt given these rules to give you the list of recommeded fruits.
+2. Make a simple flask POST API where we return the answers given the input in POST Body with content type application/json
