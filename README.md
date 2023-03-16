@@ -12,7 +12,7 @@ we tried to follow the following steps:
   So, these are the steps we do s preparation of dataset.
   Then,
   If a query appeared, we do the following:
-- We first take the query and find matches with the data we have on vector database, like a semantic serch.
+- We first take the query and find matches with the data we have on vector database, like a semantic search.
 - We take those contexts, and generate a prompt appropriate to the use case, including the contexts and the user's original question. We tell gpt-3 to
   answer based on the context.
 
